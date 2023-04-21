@@ -198,7 +198,7 @@ int getJanWeekOfYear(const EpochTimePoint& tp) {
   }
 
   if (jan1_wday == 5) {
-    // Jan 1 is a Fri
+    // Jan 1 is a Fri //
     // Jan 1-3 belong to previous year. Dec 31 of previous year same week # as Jan 1-3
     // previous year is a leap year:
     // Prev Jan 1 is a Wed. Jan 6th is Mon
